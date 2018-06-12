@@ -83,7 +83,7 @@
 		<div class="container">
 			<div>
 				<a href="/"><button class="button">Home</button></a>
-				<a href="search/fees"><button class="button">Search</button></a>
+				<a href="/search/fees"><button class="button">Search</button></a>
 				<form action="fees" method="post" >
 					{{csrf_field()}}
 					<h2>Fees Payment Form</h2>
