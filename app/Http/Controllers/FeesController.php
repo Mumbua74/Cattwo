@@ -17,7 +17,7 @@ class FeesController extends Controller
 	public function save(Request $req)
 	{
 		$validatedData = $req->validate([
-        'student_number'=>'required|max:255|exists::students,student_number',
+        'student_number'=>'required|max:255',
         'full_name'=>'required',
         'amount'=>'required',
        
