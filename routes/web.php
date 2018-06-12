@@ -18,9 +18,7 @@ Route::get('/', function () {
 Route::get('/fees', function () {
     return view('faith_mumbua_mutinda.fees');
 });
-Route::get('/viewfeesall', function(){
-	return view('faith_mumbua_mutinda.viewfeesall');
-});
+ 
 Route::get('/student', function () {
     return view('faith_mumbua_mutinda.student');
 });
