@@ -27,4 +27,4 @@ Route::get('/student', function () {
 Route::post('student','StudentController@save');
 Route::post('fees','FeesController@save');
 Route::get('/search/fees','FeesController@search');
-Route::get('viewfeesall/fees','FeesController@viewfeesall');
+Route::get('/viewfeesall/fees','FeesController@viewfeesall');
