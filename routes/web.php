@@ -20,7 +20,7 @@ Route::get('/fees', function () {
 });
 Route::get('/viewfeesall', function(){
 	return view('faith_mumbua_mutinda.viewfeesall');
-}
+});
 Route::get('/student', function () {
     return view('faith_mumbua_mutinda.student');
 });
