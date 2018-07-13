@@ -50,7 +50,7 @@ class FeesController extends Controller
 	}
 	public function search(Request $req)
 	{
-		$student_number =$req->input('student_number');
+		$student_number =$req->input('%student_number%');
 
 		$fee = Fees::where('student_number',$student_number)->get();
 
